@@ -8,5 +8,11 @@ on.Start [
           if.keyPressed(d) [
                change.Player(x):5
           ]
+          if.keyPressed(s) [
+               change.Player(y):-5
+          ]
+          if.keyPressed(a) [
+               change.Player(x):-5
+          ]
       ]
 ]
