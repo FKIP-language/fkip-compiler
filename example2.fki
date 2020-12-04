@@ -1,0 +1,9 @@
+=This is a comment, top down game=
+on.Start [
+     create.sprite.Player : img(player.png)
+     sprite.Movement [
+          if.keyPressed(w) [
+               change.Player(y):5
+          ]
+      ]
+]
