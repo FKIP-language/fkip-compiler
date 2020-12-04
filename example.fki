@@ -1,5 +1,7 @@
 on.Start [
 create.sprite.Player : img(player.png)
+setGravity.Player : Floor
+draw.line x = 0, y = 10 id = "Floor"
 add.var "Player.x"
 add.var "yvel"
    if Player.x change'5' [
@@ -19,6 +21,7 @@ add.var "yvel"
    wait.2 sec
    change.Player yvel : '-10'
    ]
+   
 ]
 forever [
 play.sound.until(bg.mp3)
