@@ -12,3 +12,6 @@ create.sprite.Player : img(player.png)
    change.Player yvel : '-10'
    ]
 ]
+forever [
+play.sound.until(bg.mp3)
+]
