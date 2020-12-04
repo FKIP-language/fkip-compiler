@@ -1,5 +1,13 @@
 on.Start [
 create.sprite.Player : img(player.png)
+add.var "Player.x"
+add.var "yvel"
+   if Player.x change'5' [
+   change.sprite.xpos +5
+   ]
+   if Player.x change'-5' [
+   change.sprite.xpos -5
+   ]
    on.keyPressed(d) [
    change.Player.x : '5'
    ]
