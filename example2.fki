@@ -5,5 +5,8 @@ on.Start [
           if.keyPressed(w) [
                change.Player(y):5
           ]
+          if.keyPressed(d) [
+               change.Player(x):5
+          ]
       ]
 ]
