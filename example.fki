@@ -1,3 +1,8 @@
 on.Start [
-if.keyPressed(d) [
-change.Player.x : 5
+create.sprite.Player : img(player.png)
+   on.keyPressed(d) [
+   change.Player.x : '5'
+   ]
+   on.keyPressed(a) [
+   change.Player.x : '-5'
+   ]
