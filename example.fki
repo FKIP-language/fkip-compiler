@@ -6,3 +6,9 @@ create.sprite.Player : img(player.png)
    on.keyPressed(a) [
    change.Player.x : '-5'
    ]
+   on.keyPressed(space) [
+   change.Player yvel : '10'
+   wait.2 sec
+   change.Player yvel : '-10'
+   ]
+]
