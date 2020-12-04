@@ -17,6 +17,9 @@ on.Start [
       ]
       
       color.Sets [
+          vignette.set [
+          true
+          ]
           background.Main [
                 color.set(rainbow):red
           ]
