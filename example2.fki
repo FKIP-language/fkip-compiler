@@ -15,5 +15,11 @@ on.Start [
                change.Player(x):-5
           ]
       ]
+      
+      color.Sets [
+          background.Main [
+                color.set(rainbow):red
+          ]
+      ]
 ]
 =FKI is for the game engine FKIP=
