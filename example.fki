@@ -1,0 +1,3 @@
+on.Start [
+if.keyPressed(d) [
+change.Player.x : 5
